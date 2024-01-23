@@ -14,5 +14,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        rain: {
+          "primary": "#F08BC2",
+          "secondary": "#000000",
+          "neutral": "#ffffff",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
 }
