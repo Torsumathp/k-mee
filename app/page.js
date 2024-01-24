@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="navbar bg-neutral">
         <div className="navbar-start">
-          <a className="btn btn-ghost text-xl text-secondary">Model</a>
+          <a className="btn btn-ghost text-xl text-secondary" href='/model'>Model</a>
           <a className="btn btn-ghost text-xl text-secondary" href='/quiz'>Quiz</a>
         </div>
         <div className="navbar-end">

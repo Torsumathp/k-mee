@@ -17,7 +17,7 @@ function page() {
         <div className='flex justify-around items-center px-96'>
           <div className="avatar">
             <div className="w-64 rounded">
-              <img src="https://cdn.discordapp.com/attachments/1133045775128068179/1190567378610819112/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9NMGVFSS9NQUYzdExNMGVFSS8xL3AucG5n.webp?ex=65a24546&is=658fd046&hm=a51d98408469267bfd728247780313a6aae9809b50ed89402895785568d4dcb5&" />
+              <img src="https://cdn.discordapp.com/attachments/1133045775128068179/1190545476689334292/atomic.png?ex=65bde060&is=65ab6b60&hm=45fc81bea95cbffeb4d6b47e58c1ca6b8345271436af778f5f21226a2fee097c&" />
             </div>
           </div>
         </div>
