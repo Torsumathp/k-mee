@@ -7,7 +7,6 @@ export default function Home() {
         <div className="navbar-start">
           <a className="btn btn-ghost text-xl text-secondary">Model</a>
           <a className="btn btn-ghost text-xl text-secondary" href='/quiz'>Quiz</a>
-          <a className="btn btn-ghost text-xl text-secondary">Print</a>
         </div>
         <div className="navbar-end">
           <a className="btn text-primary">Sign in</a>

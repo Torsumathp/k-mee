@@ -101,12 +101,8 @@ function page() {
             </div>
           )}
 
-          <div>
-            <img
-              src='https://cdn.discordapp.com/attachments/1133045775128068179/1190567379260940348/t.webp?ex=65bdf4c6&is=65ab7fc6&hm=bea1b2f61d3fbade6410cca413eae72441bbecdb454b64dfa7da3d3577ae5bc0&'
-              alt='test'
-              className={`w-[5rem] ml-5 ${setactiveQuestion === 1 * 5 && "ml-10"}`}
-            />
+          <div className='flex justify-center items-center'>
+            <img src='https://cdn.discordapp.com/attachments/1133045775128068179/1190567379260940348/t.webp?ex=65bdf4c6&is=65ab7fc6&hm=bea1b2f61d3fbade6410cca413eae72441bbecdb454b64dfa7da3d3577ae5bc0&' alt='rubbit' className="w-[5rem]" />
           </div>
         </div>
       </div>
