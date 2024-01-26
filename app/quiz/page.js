@@ -88,9 +88,9 @@ function page() {
             <div className="bg-primary py-16 text-white font-bold">
               <h3 className='text-center text-3xl'>สรุปคะแนน Quiz</h3>
               <div className='m-5 text-center'>
-                <h3 className='text-xl'>ทั้งหมด {(result.score / 25) * 100}%</h3>
+                <h3 className='text-xl'>ทั้งหมด {((result.score / 25) * 100)/2}%</h3>
                 <p className='text-xl'>คําถามทั้งหมด: <span>{questions.length}</span></p>
-                <p className='text-xl'>คะแนนรวม: <span>{result.score}</span></p>
+                <p className='text-xl'>คะแนนรวม: <span>{result.score/5}</span></p>
                 <p className='text-xl'>คําตอบที่ถูกต้อง: <span>{result.correctAnswers}</span></p>
                 <p className='text-xl'>ตอบผิด: <span>{result.wrongAnswers}</span></p>
               </div>
